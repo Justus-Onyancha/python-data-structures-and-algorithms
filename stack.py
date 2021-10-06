@@ -35,3 +35,15 @@ if __name__ == '__main__':
     s = Stack()
 
     print(s)
+
+    print(s.is_empty())
+    s.push(3)
+    print(s)
+    s.push(4)
+    s.push(22)
+    print(s)
+    s.pop()
+    print(s)
+    s.peek()
+    print(s)
+    print(s.size())
