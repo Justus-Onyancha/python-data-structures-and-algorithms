@@ -1,5 +1,4 @@
 def read_maze(file_name):
-
     '''
     Read maze stored ina text file and returns a 2d list containing the mazw representation.
     '''
@@ -14,7 +13,8 @@ def read_maze(file_name):
             return maze
     except OSError:
         print("There is a problem with the file you gave selected")
-        raise SystemExit    
+        raise SystemExit
+
 
 if __name__ == '__main__':
     maze = read_maze("mazes/modest_maze.txt")
