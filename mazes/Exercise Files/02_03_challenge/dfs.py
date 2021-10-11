@@ -30,7 +30,7 @@ def dfs(maze, start, goal):
 
 
 '''
-Added the code Above to make our depth first search algo using stack
+Added the code Above to make our depth first search algo using stack methods
 '''
 
 
